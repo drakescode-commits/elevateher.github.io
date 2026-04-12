@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+
+  .hero-grid,
+  .split {
+    grid-template-columns:1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding:20px;
+  }
+
+  section {
+    padding:60px 20px;
+  }
+
+  .hero {
+    padding:60px 20px;
+  }
+
+  .grid-3 {
+    grid-template-columns:1fr;
+  }
+
+  .btn-primary {
+    width:100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size:26px;
+  }
+
+  .large {
+    height:180px;
+  }
+}
