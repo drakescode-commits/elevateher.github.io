@@ -1,175 +1,1322 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ElevateHer Coaching Co.</title>
+    <meta charset="UTF-8">
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-  <link rel="stylesheet" href="CSS/style.css"/>
-  <link rel="stylesheet" href="CSS/responsive.css"/>
+    <meta
+        name="description"
+        content="ElevateHer Coaching Co. helps ambitious women entrepreneurs build structured, profitable businesses with clarity, confidence, and aligned strategy."
+    >
+
+    <meta
+        name="keywords"
+        content="business coach, women entrepreneurs, business strategy, coaching programs, private coaching"
+    >
+
+    <meta name="author" content="ElevateHer Coaching Co.">
+
+    <meta property="og:title" content="ElevateHer Coaching Co.">
+    <meta
+        property="og:description"
+        content="Build a profitable business that feels aligned, structured, and sustainable."
+    >
+    <meta property="og:type" content="website">
+
+    <title>ElevateHer Coaching Co. | Business Coaching for Women</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
 </head>
 
 <body>
 
-<!-- NAV -->
-<header class="navbar">
-  <div class="logo">ElevateHer</div>
+    <!-- Skip Link -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
 
-  <nav class="nav-links">
-    <a href="#story">Story</a>
-    <a href="#results">Results</a>
-    <a href="#programs">Programs</a>
-    <a href="#book" class="btn-nav">Book Call</a>
-  </nav>
-</header>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container announcement-inner">
+            <p>
+                Applications are now open for private coaching.
+            </p>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-grid">
-
-    <div class="hero-text">
-      <h1>Build a profitable business that feels aligned and structured.</h1>
-      <p>Premium coaching for women ready to scale beyond inconsistent income and step into clarity and confidence.</p>
-      <a href="#book" class="btn-primary">Apply for Coaching</a>
+            <a href="#apply">
+                Apply today
+                <span aria-hidden="true">→</span>
+            </a>
+        </div>
     </div>
 
-    <div class="hero-image img-placeholder large">
-      Hero Image
-    </div>
+    <!-- Header -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
 
-  </div>
-</section>
+            <a
+                href="#home"
+                class="brand"
+                aria-label="ElevateHer Coaching Co. home"
+            >
+                <span class="brand-mark" aria-hidden="true">
+                    EH
+                </span>
 
-<!-- TRUST BAR -->
-<section class="trust-bar">
-  <p>Trusted by 200+ women entrepreneurs • High-ticket coaching • Transformation-focused results</p>
-</section>
+                <span class="brand-text">
+                    <strong>ElevateHer</strong>
+                    <small>Coaching Co.</small>
+                </span>
+            </a>
 
-<!-- STORY -->
-<section id="story" class="story container split">
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a href="#story">Our Story</a>
+                <a href="#results">Results</a>
+                <a href="#programs">Programs</a>
+                <a href="#process">How It Works</a>
+            </nav>
 
-  <div class="img-placeholder large">
-    Founder Image
-  </div>
+            <a href="#apply" class="button button-small header-cta">
+                Book a Call
+                <span aria-hidden="true">↗</span>
+            </a>
 
-  <div>
-    <h2>The Story</h2>
-    <p>
-      ElevateHer Coaching Co. was built to help women stop guessing and start building structured, profitable businesses.
-    </p>
-  </div>
+            <!-- Mobile Menu Button -->
+            <button
+                class="mobile-menu-button"
+                id="mobileMenuButton"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="mobileNavigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-</section>
+        </div>
 
-<!-- RESULTS -->
-<section id="results" class="results container">
+        <!-- Mobile Navigation -->
+        <nav
+            class="mobile-nav"
+            id="mobileNavigation"
+            aria-label="Mobile navigation"
+        >
+            <div class="container mobile-nav-inner">
+                <a href="#story" class="mobile-nav-link">Our Story</a>
+                <a href="#results" class="mobile-nav-link">Results</a>
+                <a href="#programs" class="mobile-nav-link">Programs</a>
+                <a href="#process" class="mobile-nav-link">How It Works</a>
 
-  <h2>Client Results</h2>
+                <a
+                    href="#apply"
+                    class="button button-primary mobile-nav-link"
+                >
+                    Apply for Coaching
+                </a>
+            </div>
+        </nav>
+    </header>
 
-  <div class="grid-3">
+    <main id="main-content">
 
-    <div class="card">
-      <div class="img-placeholder small">Result</div>
-      <p>$0 → $10K months transformation</p>
-    </div>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
 
-    <div class="card">
-      <div class="img-placeholder small">Result</div>
-      <p>First high-ticket offer launched</p>
-    </div>
+            <div class="container hero-grid">
 
-    <div class="card">
-      <div class="img-placeholder small">Result</div>
-      <p>Consistent income achieved</p>
-    </div>
+                <div class="hero-content reveal">
+                    <span class="eyebrow">
+                        Strategy. Structure. Sustainable Growth.
+                    </span>
 
-  </div>
+                    <h1>
+                        Build a profitable business that feels
+                        <em>aligned.</em>
+                    </h1>
 
-</section>
+                    <p class="hero-description">
+                        Premium business coaching for ambitious women ready
+                        to move beyond inconsistent income and build with
+                        clarity, confidence, and a strategy that works.
+                    </p>
 
-<!-- PROGRAMS -->
-<section id="programs" class="programs container">
+                    <div class="hero-actions">
+                        <a href="#apply" class="button button-primary">
+                            Apply for Coaching
+                            <span aria-hidden="true">→</span>
+                        </a>
 
-  <h2>Programs</h2>
+                        <a href="#programs" class="text-link">
+                            Explore Programs
+                            <span aria-hidden="true">↓</span>
+                        </a>
+                    </div>
 
-  <div class="grid-3">
+                    <div class="hero-proof">
+                        <div class="client-avatars" aria-hidden="true">
+                            <img
+                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80"
+                                alt=""
+                            >
 
-    <div class="card">
-      <h3>Clarity Session</h3>
-      <p>One-time strategy session.</p>
-    </div>
+                            <img
+                                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&q=80"
+                                alt=""
+                            >
 
-    <div class="card highlight">
-      <h3>Momentum Accelerator</h3>
-      <p>4-week business structure build.</p>
-    </div>
+                            <img
+                                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80"
+                                alt=""
+                            >
+                        </div>
 
-    <div class="card">
-      <h3>Elite Mastermind</h3>
-      <p>High-level scaling program.</p>
-    </div>
+                        <div class="proof-text">
+                            <div class="stars" aria-label="Five out of five stars">
+                                ★★★★★
+                            </div>
 
-  </div>
+                            <p>
+                                Trusted by more than
+                                <strong>200 women entrepreneurs</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-</section>
+                <div class="hero-visual reveal reveal-delay-one">
+                    <div class="hero-image-wrapper">
+                        <img
+                            class="hero-image"
+                            src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=85"
+                            alt="Business coach working with a client during a strategy session"
+                            fetchpriority="high"
+                        >
 
-<!-- BOOKING -->
-<section id="book" class="booking container split">
+                        <div class="hero-image-overlay"></div>
 
-  <div>
-    <h2>Apply for Private Coaching</h2>
-    <p>Applications are reviewed within 24–48 hours.</p>
+                        <div class="floating-card floating-card-revenue">
+                            <span class="floating-icon" aria-hidden="true">
+                                ↗
+                            </span>
 
-    <div class="img-placeholder large">
-      Coaching Image
-    </div>
-  </div>
+                            <div>
+                                <small>Client Revenue</small>
+                                <strong>$10K Month</strong>
+                            </div>
+                        </div>
 
-  <form id="bookingForm" class="form">
+                        <div class="floating-card floating-card-growth">
+                            <span class="growth-label">
+                                Business Growth
+                            </span>
 
-    <h3>Application Form</h3>
-    <p class="form-subtext">Limited spots available</p>
+                            <div class="growth-chart" aria-hidden="true">
+                                <span style="height: 30%;"></span>
+                                <span style="height: 45%;"></span>
+                                <span style="height: 60%;"></span>
+                                <span style="height: 82%;"></span>
+                                <span style="height: 100%;"></span>
+                            </div>
+                        </div>
+                    </div>
 
-    <input type="text" placeholder="Full Name" required />
-    <input type="email" placeholder="Email Address" required />
+                    <div class="hero-accent-text" aria-hidden="true">
+                        Elevate
+                    </div>
+                </div>
 
-    <select required>
-      <option value="">Revenue Level</option>
-      <option>Just Starting</option>
-      <option>$1K–$5K/month</option>
-      <option>$5K–$10K/month</option>
-      <option>$10K+</option>
-    </select>
+            </div>
+        </section>
 
-    <select required>
-      <option value="">Goal</option>
-      <option>Start Business</option>
-      <option>First $1K Month</option>
-      <option>Scale to $10K+</option>
-    </select>
+        <!-- Trust Strip -->
+        <section class="trust-strip" aria-label="Coaching benefits">
+            <div class="container trust-strip-inner">
 
-    <textarea placeholder="Biggest challenge?" rows="4"></textarea>
+                <div class="trust-item">
+                    <span aria-hidden="true">✦</span>
+                    <p>High-Ticket Offer Strategy</p>
+                </div>
 
-    <button type="submit" class="btn-primary">Submit Application</button>
+                <div class="trust-item">
+                    <span aria-hidden="true">✦</span>
+                    <p>Aligned Business Systems</p>
+                </div>
 
-    <p class="form-note">We respond within 24–48 hours.</p>
+                <div class="trust-item">
+                    <span aria-hidden="true">✦</span>
+                    <p>Confident Leadership</p>
+                </div>
 
-  </form>
+                <div class="trust-item">
+                    <span aria-hidden="true">✦</span>
+                    <p>Sustainable Revenue Growth</p>
+                </div>
 
-</section>
+            </div>
+        </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <p>© 2026 ElevateHer Coaching Co.</p>
-</footer>
+        <!-- Story Section -->
+        <section class="story section" id="story">
+            <div class="container story-grid">
 
-<!-- STICKY CTA -->
-<div class="sticky-cta">
-  <a href="#book">Book Your Call</a>
-</div>
+                <div class="story-visual reveal">
+                    <div class="story-image-primary">
+                        <img
+                            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=85"
+                            alt="Confident female business coach standing in a professional office"
+                            loading="lazy"
+                        >
+                    </div>
 
-<script src="JS/script.js"></script>
+                    <div class="story-image-secondary">
+                        <img
+                            src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=85"
+                            alt="Women collaborating during a business meeting"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="experience-badge">
+                        <strong>10+</strong>
+                        <span>Years of combined experience</span>
+                    </div>
+                </div>
+
+                <div class="story-content reveal reveal-delay-one">
+                    <span class="section-label">The Story</span>
+
+                    <h2>
+                        Your business should support the life you are
+                        building.
+                    </h2>
+
+                    <p class="story-intro">
+                        ElevateHer Coaching Co. was created for women who are
+                        ready to stop guessing, start leading, and build a
+                        business with intention.
+                    </p>
+
+                    <p>
+                        We help you simplify your offers, strengthen your
+                        positioning, create dependable systems, and confidently
+                        make decisions that support long-term growth.
+                    </p>
+
+                    <div class="story-values">
+
+                        <div class="value-item">
+                            <span class="value-number">01</span>
+
+                            <div>
+                                <h3>Clarity Before Complexity</h3>
+                                <p>
+                                    Build around a focused strategy instead of
+                                    chasing every new idea.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <span class="value-number">02</span>
+
+                            <div>
+                                <h3>Structure That Creates Freedom</h3>
+                                <p>
+                                    Develop systems that allow your business to
+                                    grow without consuming your entire life.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <span class="value-number">03</span>
+
+                            <div>
+                                <h3>Confidence Through Action</h3>
+                                <p>
+                                    Replace uncertainty with informed decisions,
+                                    consistent execution, and measurable progress.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#programs" class="button button-secondary">
+                        Discover Our Approach
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results section" id="results">
+            <div class="container">
+
+                <div class="section-heading centered reveal">
+                    <span class="section-label">Client Results</span>
+
+                    <h2>
+                        Real strategy. Real transformation.
+                    </h2>
+
+                    <p>
+                        Our clients leave with more than motivation. They gain
+                        the structure and confidence needed to create lasting
+                        momentum.
+                    </p>
+                </div>
+
+                <div class="results-grid">
+
+                    <article class="result-card reveal">
+                        <span class="result-tag">
+                            Revenue Growth
+                        </span>
+
+                        <strong
+                            class="result-number"
+                            data-count="10"
+                            data-prefix="$"
+                            data-suffix="K"
+                        >
+                            $10K
+                        </strong>
+
+                        <h3>Consistent Monthly Revenue</h3>
+
+                        <p>
+                            From an unclear offer and inconsistent sales to a
+                            focused strategy that produced a five-figure month.
+                        </p>
+
+                        <div class="result-card-footer">
+                            <span>Business Consultant</span>
+                            <span aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                    <article class="result-card featured-result reveal reveal-delay-one">
+                        <span class="result-tag">
+                            Offer Launch
+                        </span>
+
+                        <strong
+                            class="result-number"
+                            data-count="21"
+                            data-suffix=" Days"
+                        >
+                            21 Days
+                        </strong>
+
+                        <h3>First High-Ticket Offer Launched</h3>
+
+                        <p>
+                            A complete premium offer was positioned, priced,
+                            and introduced to the market in three focused weeks.
+                        </p>
+
+                        <div class="result-card-footer">
+                            <span>Creative Entrepreneur</span>
+                            <span aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                    <article class="result-card reveal reveal-delay-two">
+                        <span class="result-tag">
+                            Business Systems
+                        </span>
+
+                        <strong
+                            class="result-number"
+                            data-count="40"
+                            data-suffix="%"
+                        >
+                            40%
+                        </strong>
+
+                        <h3>More Time Reclaimed</h3>
+
+                        <p>
+                            Streamlined workflows helped reduce unnecessary
+                            tasks and created more time for revenue-generating
+                            work.
+                        </p>
+
+                        <div class="result-card-footer">
+                            <span>Service Provider</span>
+                            <span aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="testimonial-feature reveal">
+                    <div class="testimonial-quote-mark" aria-hidden="true">
+                        “
+                    </div>
+
+                    <blockquote>
+                        I finally stopped second-guessing every decision. The
+                        strategy gave me a clear offer, a stronger message, and
+                        the confidence to charge what my work is worth.
+                    </blockquote>
+
+                    <div class="testimonial-author">
+                        <img
+                            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=160&q=85"
+                            alt="Portrait of ElevateHer coaching client"
+                            loading="lazy"
+                        >
+
+                        <div>
+                            <strong>Danielle R.</strong>
+                            <span>Brand Strategist</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="programs section" id="programs">
+            <div class="container">
+
+                <div class="section-heading programs-heading reveal">
+                    <div>
+                        <span class="section-label">Ways to Work Together</span>
+
+                        <h2>
+                            Choose the support that matches your next level.
+                        </h2>
+                    </div>
+
+                    <p>
+                        Whether you need focused direction or ongoing strategic
+                        support, each experience is designed to move you from
+                        uncertainty to action.
+                    </p>
+                </div>
+
+                <div class="program-grid">
+
+                    <!-- Program One -->
+                    <article class="program-card reveal">
+                        <div class="program-card-top">
+                            <span class="program-number">01</span>
+                            <span class="program-type">One-Time Session</span>
+                        </div>
+
+                        <h3>Clarity Intensive</h3>
+
+                        <p class="program-description">
+                            A focused private strategy session designed to solve
+                            your most urgent business challenge.
+                        </p>
+
+                        <ul class="program-features">
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                90-minute private session
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Personalized strategy roadmap
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Offer and messaging review
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Seven days of follow-up support
+                            </li>
+                        </ul>
+
+                        <a href="#apply" class="program-link">
+                            Reserve Your Session
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                    <!-- Program Two -->
+                    <article class="program-card program-card-featured reveal reveal-delay-one">
+                        <div class="popular-badge">
+                            Most Popular
+                        </div>
+
+                        <div class="program-card-top">
+                            <span class="program-number">02</span>
+                            <span class="program-type">Four-Week Program</span>
+                        </div>
+
+                        <h3>Momentum Accelerator</h3>
+
+                        <p class="program-description">
+                            Build the foundational structure your business needs
+                            to attract clients and generate consistent revenue.
+                        </p>
+
+                        <ul class="program-features">
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Weekly private coaching
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Signature offer development
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Sales and visibility strategy
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Templates and implementation tools
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Private messaging support
+                            </li>
+                        </ul>
+
+                        <a href="#apply" class="program-link">
+                            Apply for Momentum
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                    <!-- Program Three -->
+                    <article class="program-card reveal reveal-delay-two">
+                        <div class="program-card-top">
+                            <span class="program-number">03</span>
+                            <span class="program-type">Six-Month Experience</span>
+                        </div>
+
+                        <h3>Elevated Mastermind</h3>
+
+                        <p class="program-description">
+                            High-level coaching for established entrepreneurs
+                            ready to scale their revenue, systems, and leadership.
+                        </p>
+
+                        <ul class="program-features">
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Private and group coaching
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Advanced scaling strategy
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Systems and team development
+                            </li>
+
+                            <li>
+                                <span aria-hidden="true">✓</span>
+                                Leadership and CEO development
+                            </li>
+                        </ul>
+
+                        <a href="#apply" class="program-link">
+                            Join the Waitlist
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process section" id="process">
+            <div class="container process-grid">
+
+                <div class="process-content reveal">
+                    <span class="section-label">How It Works</span>
+
+                    <h2>
+                        A clear path from overwhelmed to elevated.
+                    </h2>
+
+                    <p>
+                        Our process is intentionally simple. We identify what is
+                        holding your business back, create the right strategy,
+                        and help you implement it with confidence.
+                    </p>
+
+                    <a href="#apply" class="button button-primary">
+                        Begin Your Journey
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+                <div class="process-steps">
+
+                    <article class="process-step reveal">
+                        <div class="step-number">01</div>
+
+                        <div class="step-content">
+                            <span>Apply</span>
+                            <h3>Tell us about your business.</h3>
+
+                            <p>
+                                Complete the short application so we can
+                                understand your current challenges and goals.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="process-step reveal reveal-delay-one">
+                        <div class="step-number">02</div>
+
+                        <div class="step-content">
+                            <span>Connect</span>
+                            <h3>Join us for a strategy call.</h3>
+
+                            <p>
+                                We will discuss your vision, identify the gaps,
+                                and determine the best level of support.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="process-step reveal reveal-delay-two">
+                        <div class="step-number">03</div>
+
+                        <div class="step-content">
+                            <span>Elevate</span>
+                            <h3>Build with clarity and confidence.</h3>
+
+                            <p>
+                                Follow a personalized roadmap supported by
+                                practical strategy, accountability, and action.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Coaching Application Section -->
+        <section class="application section" id="apply">
+            <div class="application-background-text" aria-hidden="true">
+                ElevateHer
+            </div>
+
+            <div class="container application-grid">
+
+                <div class="application-content reveal">
+                    <span class="section-label section-label-light">
+                        Private Coaching
+                    </span>
+
+                    <h2>
+                        Your next level deserves a clear strategy.
+                    </h2>
+
+                    <p>
+                        Complete the application to tell us more about your
+                        business, your goals, and the support you are looking
+                        for.
+                    </p>
+
+                    <div class="application-details">
+
+                        <div class="application-detail">
+                            <span class="detail-icon" aria-hidden="true">
+                                01
+                            </span>
+
+                            <div>
+                                <strong>Personalized Review</strong>
+                                <p>
+                                    Every application is reviewed individually.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="application-detail">
+                            <span class="detail-icon" aria-hidden="true">
+                                02
+                            </span>
+
+                            <div>
+                                <strong>Response Within 48 Hours</strong>
+                                <p>
+                                    Qualified applicants receive instructions
+                                    for scheduling a consultation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="application-detail">
+                            <span class="detail-icon" aria-hidden="true">
+                                03
+                            </span>
+
+                            <div>
+                                <strong>Limited Availability</strong>
+                                <p>
+                                    Private coaching spaces are intentionally
+                                    limited for personalized support.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="availability-note">
+                        <span class="availability-dot"></span>
+                        Limited coaching spaces currently available
+                    </div>
+                </div>
+
+                <!-- Application Form -->
+                <div class="application-form-wrapper reveal reveal-delay-one">
+                    <div class="form-heading">
+                        <span>Coaching Application</span>
+                        <h3>Let’s talk about your goals.</h3>
+                    </div>
+
+                    <form
+                        class="application-form"
+                        id="applicationForm"
+                        method="get"
+                        novalidate
+                    >
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="fullName">
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="fullName"
+                                    name="fullName"
+                                    placeholder="Your full name"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                                <small class="field-error"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                                <small class="field-error"></small>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="businessName">
+                                Business Name
+                                <span>Optional</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="businessName"
+                                name="businessName"
+                                placeholder="Your business or brand name"
+                                autocomplete="organization"
+                            >
+                        </div>
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="businessStage">
+                                    Business Stage
+                                </label>
+
+                                <select
+                                    id="businessStage"
+                                    name="businessStage"
+                                    required
+                                >
+                                    <option value="" selected disabled>
+                                        Select your stage
+                                    </option>
+
+                                    <option value="idea">
+                                        Planning or idea stage
+                                    </option>
+
+                                    <option value="new">
+                                        Newly launched
+                                    </option>
+
+                                    <option value="growing">
+                                        Growing business
+                                    </option>
+
+                                    <option value="established">
+                                        Established and scaling
+                                    </option>
+                                </select>
+
+                                <small class="field-error"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="monthlyRevenue">
+                                    Monthly Revenue
+                                </label>
+
+                                <select
+                                    id="monthlyRevenue"
+                                    name="monthlyRevenue"
+                                    required
+                                >
+                                    <option value="" selected disabled>
+                                        Select a range
+                                    </option>
+
+                                    <option value="pre-revenue">
+                                        Pre-revenue
+                                    </option>
+
+                                    <option value="under-1k">
+                                        Under $1,000
+                                    </option>
+
+                                    <option value="1k-5k">
+                                        $1,000–$5,000
+                                    </option>
+
+                                    <option value="5k-10k">
+                                        $5,000–$10,000
+                                    </option>
+
+                                    <option value="10k-plus">
+                                        $10,000+
+                                    </option>
+                                </select>
+
+                                <small class="field-error"></small>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="primaryGoal">
+                                Primary Goal
+                            </label>
+
+                            <select
+                                id="primaryGoal"
+                                name="primaryGoal"
+                                required
+                            >
+                                <option value="" selected disabled>
+                                    What would you like to achieve?
+                                </option>
+
+                                <option value="launch">
+                                    Launch my business
+                                </option>
+
+                                <option value="first-client">
+                                    Sign consistent clients
+                                </option>
+
+                                <option value="offer">
+                                    Create or improve my offer
+                                </option>
+
+                                <option value="revenue">
+                                    Increase monthly revenue
+                                </option>
+
+                                <option value="systems">
+                                    Improve my business systems
+                                </option>
+
+                                <option value="scale">
+                                    Scale beyond $10K months
+                                </option>
+                            </select>
+
+                            <small class="field-error"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="businessChallenge">
+                                What is your biggest business challenge?
+                            </label>
+
+                            <textarea
+                                id="businessChallenge"
+                                name="businessChallenge"
+                                rows="5"
+                                placeholder="Tell us what is currently preventing you from reaching your next level."
+                                required
+                            ></textarea>
+
+                            <small class="field-error"></small>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input
+                                type="checkbox"
+                                id="commitment"
+                                name="commitment"
+                                required
+                            >
+
+                            <label for="commitment">
+                                I understand that coaching requires an
+                                investment of time, energy, and resources.
+                            </label>
+
+                            <small class="field-error"></small>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="button button-primary form-submit-button"
+                        >
+                            <span class="button-text">
+                                Submit Application
+                            </span>
+
+                            <span
+                                class="button-loader"
+                                aria-hidden="true"
+                            ></span>
+
+                            <span aria-hidden="true">→</span>
+                        </button>
+
+                        <p class="form-privacy">
+                            Your information will remain private and will only
+                            be used to review your coaching application.
+                        </p>
+
+                        <div
+                            class="form-status"
+                            id="formStatus"
+                            role="status"
+                            aria-live="polite"
+                        ></div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section" id="faq">
+            <div class="container faq-grid">
+
+                <div class="faq-heading reveal">
+                    <span class="section-label">Frequently Asked Questions</span>
+
+                    <h2>
+                        Before you apply.
+                    </h2>
+
+                    <p>
+                        Here are answers to a few common questions about the
+                        ElevateHer coaching experience.
+                    </p>
+                </div>
+
+                <div class="faq-list">
+
+                    <article class="faq-item reveal">
+                        <button
+                            class="faq-question"
+                            type="button"
+                            aria-expanded="false"
+                        >
+                            <span>
+                                How do I know which program is right for me?
+                            </span>
+
+                            <span class="faq-icon" aria-hidden="true">
+                                +
+                            </span>
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>
+                                    Your application and consultation help us
+                                    identify your current needs and recommend
+                                    the most appropriate level of support.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item reveal">
+                        <button
+                            class="faq-question"
+                            type="button"
+                            aria-expanded="false"
+                        >
+                            <span>
+                                Do I need an established business to apply?
+                            </span>
+
+                            <span class="faq-icon" aria-hidden="true">
+                                +
+                            </span>
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>
+                                    No. Some programs support early-stage
+                                    entrepreneurs, while others are designed for
+                                    established businesses that are ready to scale.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item reveal">
+                        <button
+                            class="faq-question"
+                            type="button"
+                            aria-expanded="false"
+                        >
+                            <span>
+                                What happens after I submit my application?
+                            </span>
+
+                            <span class="faq-icon" aria-hidden="true">
+                                +
+                            </span>
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>
+                                    Your application will be reviewed within
+                                    24–48 hours. Qualified applicants will
+                                    receive instructions for scheduling a
+                                    consultation.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="faq-item reveal">
+                        <button
+                            class="faq-question"
+                            type="button"
+                            aria-expanded="false"
+                        >
+                            <span>
+                                Are payment plans available?
+                            </span>
+
+                            <span class="faq-icon" aria-hidden="true">
+                                +
+                            </span>
+                        </button>
+
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>
+                                    Payment options depend on the selected
+                                    coaching experience and will be discussed
+                                    during your consultation.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta">
+            <div class="container final-cta-inner reveal">
+                <span class="section-label">
+                    Your Next Chapter
+                </span>
+
+                <h2>
+                    Stop building from uncertainty.
+                    <em>Start building with intention.</em>
+                </h2>
+
+                <p>
+                    The clarity, structure, and support you have been looking
+                    for can begin with one conversation.
+                </p>
+
+                <a href="#apply" class="button button-primary">
+                    Apply for Private Coaching
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+
+            <div class="footer-brand-column">
+                <a
+                    href="#home"
+                    class="brand footer-brand"
+                    aria-label="ElevateHer Coaching Co. home"
+                >
+                    <span class="brand-mark" aria-hidden="true">
+                        EH
+                    </span>
+
+                    <span class="brand-text">
+                        <strong>ElevateHer</strong>
+                        <small>Coaching Co.</small>
+                    </span>
+                </a>
+
+                <p>
+                    Helping ambitious women build profitable businesses with
+                    clarity, structure, and confidence.
+                </p>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Visit ElevateHer on Instagram">
+                        Instagram
+                    </a>
+
+                    <a href="#" aria-label="Visit ElevateHer on LinkedIn">
+                        LinkedIn
+                    </a>
+
+                    <a href="#" aria-label="Visit ElevateHer on Facebook">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links-column">
+                <h3>Explore</h3>
+
+                <a href="#story">Our Story</a>
+                <a href="#results">Client Results</a>
+                <a href="#programs">Programs</a>
+                <a href="#process">How It Works</a>
+            </div>
+
+            <div class="footer-links-column">
+                <h3>Support</h3>
+
+                <a href="#faq">FAQs</a>
+                <a href="#apply">Apply for Coaching</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+
+            <div class="footer-cta-column">
+                <h3>Ready to elevate?</h3>
+
+                <p>
+                    Apply for private coaching and take the next step toward a
+                    more focused and profitable business.
+                </p>
+
+                <a href="#apply" class="footer-cta-link">
+                    Start Your Application
+                    <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                © <span id="currentYear">2026</span>
+                ElevateHer Coaching Co. All rights reserved.
+            </p>
+
+            <p>
+                Website concept by
+                <a
+                    href="https://www.drakescode.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Drakes Code &amp; Design
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button
+        class="back-to-top"
+        id="backToTop"
+        type="button"
+        aria-label="Return to the top of the page"
+    >
+        ↑
+    </button>
+
+    <!-- JavaScript -->
+    <script src="/JS/script.js" defer></script>
+
 </body>
 </html>
